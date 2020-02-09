@@ -1,0 +1,208 @@
+body {
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #4a0e5c;
+  font-family: 'Marck Script', cursive;
+  font-size: 7rem;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  color: #4a0e5c;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #7c4789;
+  font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+  color: #7c4789;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #7c4789;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bca3ca;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #bca3ca;
+  border-width: 5px;
+  margin: 80px auto;
+  width: 5%;
+}
+
+ul {
+  list-style: none;
+  margin: auto;
+  padding-left: 0;
+  width: 50%;
+}
+
+li {
+  padding: 5px;
+}
+
+/* Tables */
+
+table {
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+.nav {
+  background-color: #dfd4e6;
+  padding: 10px;
+
+}
+
+.top-container {
+  background-color: #dfd4e6;
+  padding: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #4a0e5c;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 50px auto;
+  width: 50%;
+}
+
+.skill-row-one {
+  clear: right;
+  text-align: right;
+}
+
+.skill-row-two {
+  clear: left;
+  text-align: left;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.btn {
+  background-color: #4a0e5c;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+}
+
+.btn:hover {
+  background-color: #7c4789;
+}
+
+.copyright-message {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.edu-heading {
+  margin: auto;
+  width: 60%;
+}
+
+.top-container-edu {
+  background-color: #dfd4e6;
+  padding: 50px;
+}
+
+.edu-description-li {
+  padding: 10px;
+}
+
+.top-container-work {
+  background-color: #dfd4e6;
+  padding: 50px;
+}
+
+.work-heading {
+  margin: auto;
+  width: 60%;
+}
+
+.website-link {
+  line-height: 3;
+}
+
+.description {
+  margin: auto;
+  width: 50%;
+}
+
+.top-container-skills {
+  background-color: #dfd4e6;
+  padding: 50px;
+}
+
+.skills-description {
+  margin:  0 auto 30px;
+  width: 50%;
+}
+
+
+/* Images */
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.scarf-logo-img {
+  float: left;
+  margin: auto 30px auto 0;
+  width: 25%;
+}
+
+.dr-logo-img {
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
