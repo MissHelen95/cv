@@ -206,13 +206,13 @@ td {
 
 .scarf-logo-img {
   float: left;
-  margin: 30px 30px 30px 0;
+  margin-right: 30px;
   width: 25%;
 }
 
 .dr-logo-img {
   border-radius: 50%;
   float: right;
-  margin: 30px 0 30px 30px;
+  margin-left: 30px;
   width: 25%;
 }
