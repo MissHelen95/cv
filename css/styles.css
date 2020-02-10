@@ -66,7 +66,6 @@ li {
 }
 
 /* Tables */
-
 table {
   font-family: 'Poppins', sans-serif;
   margin: auto;
@@ -77,13 +76,11 @@ td {
   text-align: center;
 }
 
-
-
-
 .nav {
   background-color: #dfd4e6;
   padding: 10px;
-
+  position: sticky;
+  top: 0;
 }
 
 .top-container {
@@ -108,17 +105,25 @@ td {
 
 .skill-row {
   margin: 50px auto;
+  text-align: left;
   width: 50%;
 }
 
 .skill-row-one {
-  clear: right;
-  text-align: right;
+  padding: 20px 0;
+}
+
+.skill-row-one-text {
+  margin-left: 35%;
 }
 
 .skill-row-two {
-  clear: left;
-  text-align: left;
+  padding: 20px 0;
+}
+
+.skill-row-two-text {
+  margin-right: 35%;
+  text-align: right;
 }
 
 .contact-message {
@@ -144,6 +149,7 @@ td {
   padding: 20px 0;
 }
 
+/* education.html */
 .edu-heading {
   margin: auto;
   width: 60%;
@@ -158,6 +164,7 @@ td {
   padding: 10px;
 }
 
+/* work.html */
 .top-container-work {
   background-color: #dfd4e6;
   padding: 50px;
@@ -177,32 +184,35 @@ td {
   width: 50%;
 }
 
+/* Skills.html */
 .top-container-skills {
   background-color: #dfd4e6;
   padding: 50px;
 }
 
 .skills-description {
-  margin:  0 auto 30px;
+  margin: 0 auto 30px;
   width: 50%;
 }
 
-
 /* Images */
-
 .profile-img {
   border-radius: 50%;
 }
 
+.hm-logo {
+  width: 20%;
+}
+
 .scarf-logo-img {
   float: left;
-  margin: auto 30px auto 0;
+  margin: 30px 30px 30px 0;
   width: 25%;
 }
 
 .dr-logo-img {
   border-radius: 50%;
   float: right;
-  margin-left: 30px;
+  margin: 30px 0 30px 30px;
   width: 25%;
 }
