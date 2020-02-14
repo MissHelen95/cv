@@ -229,9 +229,15 @@ td {
   width: 25%;
 }
 
-.hm-logo-img {
+.asian-drama-logo-img {
   float: left;
   margin-right: 30px;
+  width: 25%;
+}
+
+.hm-logo-img {
+  float: right;
+  margin-left: 30px;
   width: 25%;
 }
 
